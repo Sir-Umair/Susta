@@ -1,0 +1,44 @@
+.col-md-5.text-center img {
+  width: 300px !important;       /* fixed width */
+  height: 300px !important;      /* fixed height */
+  border-radius: 50% !important; /* makes it circular */
+  object-fit: cover;             /* fills the circle neatly */
+  display: block;
+  margin: 0 auto;
+  animation: identifier 3s ease-in-out 0s infinite alternate;
+
+  /* Border */
+  border: 3px solid #343434;     /* dark gray border */
+
+  /* Shadow */
+  box-shadow: 0 4px 15px rgba(94, 236, 255, 0.8); /* cyan glow effect */
+}
+p:hover{
+  display: block;
+  text-shadow: 3px rgba(94, 236, 255, 0.8);
+}
+@keyframes identifier {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateX(-110px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.jk{
+  animation: abc 3s ease-in-out 0s infinite alternate;
+}
+@keyframes abc {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateX(-110px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

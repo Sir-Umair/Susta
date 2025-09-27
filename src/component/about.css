@@ -1,0 +1,20 @@
+p:hover {
+  transform: translate(4px); /* bigger zoom */
+  transition: transform 0.3s ease-in-out;
+  color: chocolate;
+}
+h1:hover{
+    transform: translate(3px);
+    transition: transform 0.3s ease-in-out;
+    
+}
+button:hover{
+    transform: translate(3px);
+    transition: transform 0.3s ease-in-out;
+    background-color: chocolate;
+    color: white;
+}
+img:hover{
+    transform: scale3d(1.2, 1.2, 1); /* zoom in on hover */
+    transition: transform 1s ease-in-out;
+}
