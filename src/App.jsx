@@ -5,6 +5,7 @@ import About from './component/about'
 import Navbar from './component/navbar'
 import Projects from './component/projects'
 import Contact from './component/contact'
+import LandingPage from './component/LandingPage'
 
 
 const App = () => {
@@ -12,7 +13,8 @@ const App = () => {
     <BrowserRouter>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/contact" element={<Contact />} />
